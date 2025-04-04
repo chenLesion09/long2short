@@ -1,0 +1,23 @@
+Name: shortener-api
+Host: 0.0.0.0
+Port: 8080
+
+shortUrlDB:
+  host: 127.0.0.1
+  port: 3306
+  user: root
+  password: root1234
+  dbName: shortener
+
+Sequence:
+  host: 127.0.0.1
+  port: 3306
+  user: root
+  password: root1234
+  dbName: shortener
+
+BaseString: vx8RZ3N7JbKfD0wzQYqL1XkH5a9sTtFhMpGcUoI4E2i6lOjBndmSuAWrPgVeCy
+
+ShortUrlBlackList: ["version", "fuxk", "nigga", "convert", "api", "js", "css", "html", "v1", "stupid", "asshole", "pussy", "chicks", "fuck"]
+
+ShortUrlDomain: https://q1mi.com
